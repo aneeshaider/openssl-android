@@ -64,6 +64,7 @@ LOCAL_C_INCLUDES := \
 	$(NDK_PROJECT_PATH)/include
 
 LOCAL_CFLAGS := -DMONOLITH
+LOCAL_LDFLAGS := -lz
 
 include $(LOCAL_PATH)/../android-config.mk
 
